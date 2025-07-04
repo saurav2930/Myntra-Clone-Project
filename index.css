@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;}
+
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.09);
+    
+}
+
+.myntrahomelogo{
+    height: 36px;
+    width: 53px;;
+    
+}
+
+.logo_container{
+    margin-left: 3%;
+}
+
+nav{
+    display: flex;
+    min-width: 900px;
+    justify-content: space-evenly;
+    ;
+}
+
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #2f2c3f;
+    font-weight:700 ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 29px;
+     border-bottom: 5px solid #ffffff ;
+
+}
+
+.nav_bar #men:hover{
+    border-bottom: 5px solid #ee5f73 ;
+    
+}
+
+.nav_bar #women:hover{
+    border-bottom: 5px solid #fb56c1;
+}
+
+.nav_bar #kids:hover{
+    border-bottom: 5px solid #f26a10;;
+    
+}
+
+.nav_bar #home_living:hover{
+    border-bottom: 5px solid #f2c210
+   
+}
+
+.nav_bar #beauty:hover{
+    border-bottom: 5px solid #0db7af;
+    
+}
+
+.nav_bar #studio:hover{
+    border-bottom: 5px solid #ff3f6c
+    
+}
+
+
+.nav_bar a sup{
+    color:#ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+height: 40px;
+min-width:400px;
+display: flex;
+align-items: center;
+}
+
+.search_bar span{
+height: 19px;
+padding: 10px;
+background-color: #f5f5f6;
+box-sizing: content-box;
+border: 1px solid #f5f5f6;
+border-right: none;
+border-radius: 4px 0 0 4px;
+}
+
+.search_bar .search_input{
+color: #696e79;
+background-color: #f5f5f6;
+flex-grow: 1;
+height: 40px;
+border-radius: 0 4px 4px 0;
+border: 1px solid #f5f5f6
+}
+
+.action_bar{
+  height: 40px;
+  width:300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.action_container{
+ display: flex;
+ flex-wrap: wrap;
+ width: 30px;
+ align-items: center;
+}
+
+.action_profile{
+    margin: 0px 0px 7px 15px;
+}
+
+.action_wishlist{
+    margin: 0px 0px 7px 18px;
+}
+
+.action_bag{
+    margin: 0px 0px 7px 6px;
+}
+
+/* Main Section */
+
+.banner_container{
+    padding: 40px 0px;
+    box-sizing: content-box;
+   
+}
+
+.first_banner{
+    width: 100%;
+}
+
+.second_banner{
+    width: 50%;
+}
+
+.third_banner{
+    width: 100%;
+}
+
+.fourth_banner{
+    width: 100%;
+}
+
+.fifth_banner{
+    width: 100%;
+}
+
+
+
+.payday_perks_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.perk_item{
+    width: 220px;
+    height: 280px;
+}
+
+.pay_yay_deals_items{
+    width: 220px;
+    height: 280px;
+}
+
+.pay_yay_delas_banner{
+    padding: 0 0 40px 0;
+    width: 100%;
+}
+
+.pay_yay_deals_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;}
+
+.category_banner{
+    width: 100%;
+}
+
+.category_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category_first{
+    width: 222.94;
+    height: 291.2;
+}
+
+.category_second{
+    width: 267.52;
+    height: 291.2;
+}
+/* Footer Section */
+
+.top_footer_contianer{
+    width: 100%;
+    height:800px;
+    
+    box-shadow: 0px -1px 50px rgba(0, 0, 0, 0.1);
+}
+
+.footer_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(250, 251, 252,);
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding:30px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 15px;
+    color: rgb(40, 44, 63,);
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    line-height: 3;
+}
+
+.footer_content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    line-height: 2;
+    padding: 0px 20px 0px 0px;
+    margin-right: 2%;
+
+    
+}
+
+.footer_content2{
+    display: flex;
+    flex-direction: column;
+    line-height:2;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer_content3{
+width: 380px;
+height: 180px;
+}
+
+.headingfourth{
+    padding-bottom: 10px;
+}
+
+.footer_content3 a{
+    padding-right:20px;
+}
+
+.footer_appstore{
+    width: 140px;
+    height: 45px;
+}
+
+.footer_socialmedia{
+    width: 20px;
+    height: 20px;
+}
+.nav_item{
+    text-decoration: none;
+    color: rgb(105, 107, 121);
+    cursor: pointer;
+}
+
+.footer_orignaltag{
+    width: 48px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.footer_content4{
+    display: flex;
+    flex-direction: column;
+}
+
+.orignal_tag_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.footer_14days_return_tag{
+    width: 48px;
+    height: 49px;
+    margin-right: 10px;
+}
+ 
+.footer_return_container{
+    display: flex;
+    line-height: 3;
+    
+}
